@@ -1,0 +1,16 @@
+  571  cd "/Users/goncalomarques/Desktop/prep final/" && gcc exer4.2.c -o exer4.2 && "/Users/goncalomarques/Desktop/prep final/"exer4.2
+  572  cd "/Users/goncalomarques/Desktop/prep final/" && gcc exer4.2.c -o exer4.2 && "/Users/goncalomarques/Desktop/prep final/"exer4.2
+  573  cd "/Users/goncalomarques/Desktop/prep final/" && gcc exer4.2.c -o exer4.2 && "/Users/goncalomarques/Desktop/prep final/"exer4.2
+  574  cd "/Users/goncalomarques/Desktop/coisas para o teste"\n
+  575  git clone https://github.com/goncalo-ua/repositorio-para-o-teste.git\n
+  576  cd "/Users/goncalomarques/Desktop/coisas para o teste/repositorio-para-o-teste"\n
+  577  echo "<h1>Site Azure pronto > index.html\n
+  578  echo '<h1>Site Azure pronto!</h1>' > index.html\n
+  579  cat > index.html << 'EOF'\n<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset="UTF-8">\n    <title>Site Azure</title>\n  </head>\n  <body>\n    <h1>Site Azure pronto! 😎</h1>\n    <p>Este ficheiro está a ser servido pelo Apache na Azure.</p>\n  </body>\n</html>\nEOF\n
+  580  git add index.html
+  581  git commit -m aprontar tudo
+  582  git commit -m "aprontar tudo"\n
+  583  git push -u origin main\n
+  584  git pull
+  585  git pull
+  586  history > comandos locais.txt
