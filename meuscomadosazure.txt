@@ -1,0 +1,43 @@
+    1  sudo apt update
+    2  sudo apt install apache2 -y
+    3  sudo systemctl start apache2
+    4  sudo systemctl enable apache2
+    5  sudo systemctl status apache2
+    6  cd "/Users/goncalomarques/Desktop/coisas para o teste"
+    7  sudo apt update
+    8  sudo apt install git -y
+    9  cd /var/www
+   10  sudo rm -rf html
+   11  sudo git clone https://github.com/goncalo-ua/repositorio-para-o-teste.git html
+   12  sudo chown -R www-data:www-data /var/www/html
+   13  ssh -i /Users/goncalomarques/Desktop/coisas para o teste goncalo-ua@20.208.139.136
+   14  ls
+   15  pwd
+   16  ls
+   17  pwd
+   18  git push
+   19  cd /var/www/html
+   20  sudo git pull
+   21  sudo git config --global --add safe.directory /var/www/html
+   22  sudo git pull
+   23  sudo cp index.html disciplinas.html
+   24  ls
+   25  git add .
+   26  sudo git config --global --add safe.directory /var/www/html
+   27  git add .
+   28  sudo git add .
+   29  sudo git commit -m " Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+   30  git push
+   31  git config --global --add safe.directory /var/www/html
+   32  git push
+   33  cd /var/www/html
+   34  sudo chown -R goncalo-ua:goncalo-ua /var/www/html
+   35  git config --global --add safe.directory /var/www/html
+   36  git remote set-url origin https://github.com/goncalo-ua/LI2025TESTE3.git
+   37  git remote -v
+   38  cd /var/www/html
+   39  cp index.html disciplinas.html
+   40  git add disciplinas.html
+   41  git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+   42  git push
+   43  history > meuscomadosazure.txt
